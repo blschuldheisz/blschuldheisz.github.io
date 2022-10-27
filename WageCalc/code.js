@@ -12,12 +12,11 @@ function Wage(a, b, c, d, e) {
     var d = Number(document.getElementById('input4').value);
     var e = Number.value;
     
-    var a = 0;
-    var output = 3;
-    if (a = 0)
-        output = 2;
-    else
-        output = 1;
+    if (d>c) {
+        e = (d - c) * b + (c * a)
+    } else {
+        e = d * a
+    }
         
      
     document.getElementById("output").innerHTML = "$" + output;
